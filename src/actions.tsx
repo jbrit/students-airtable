@@ -3,7 +3,7 @@ import Record from "airtable/lib/record";
 import { FieldSet } from "airtable/lib/field_set";
 import { ClassRecord } from "./constants";
 
-const base = new Airtable({ apiKey: process.env.REACT_AIRTABLE_API_KEY}).base(
+const base = new Airtable({ apiKey: process.env.REACT_APP_AIRTABLE_API_KEY}).base(
   "app8ZbcPx7dkpOnP0"
 );
 
